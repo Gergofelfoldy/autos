@@ -1,0 +1,51 @@
+/* Alapstílusok */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(wallpaper.webp);
+  }
+  
+  /* Kártyák */
+  .card {
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  /* Reszponzivitás */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .card {
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-nav {
+      font-size: 14px;
+    }
+  
+    .card {
+      margin: 5px 0;
+    }
+  }
+ 
